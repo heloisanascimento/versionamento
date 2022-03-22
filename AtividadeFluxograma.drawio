@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T21:16:22.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="1vuNeII6Zo_rUfJIf65Y" version="17.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T21:55:54.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="an8GOtffXwc2KXKHQ_Tb" version="17.1.4" type="github">
   <diagram id="xeMO94YszJeTBYEZ5b5v" name="Page-1">
-    <mxGraphModel dx="1066" dy="329" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2809" dy="1188" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="giaX7tnbBmGHWZiOz6_T-19" value="&lt;font style=&quot;font-size: 10px&quot;&gt;a data do evento é posterior a data atual?&lt;/font&gt;&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;hachureGap=4;" vertex="1" parent="1">
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-19" value="&lt;font style=&quot;font-size: 10px&quot;&gt;a data do evento é maior que a data atual?&lt;/font&gt;&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="-121" y="427" width="104" height="100" as="geometry" />
         </mxCell>
         <mxCell id="giaX7tnbBmGHWZiOz6_T-32" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-24" target="giaX7tnbBmGHWZiOz6_T-31">
@@ -44,8 +44,78 @@
         <mxCell id="giaX7tnbBmGHWZiOz6_T-26" value="data do evento&amp;nbsp; invalida&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;hachureGap=4;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="39" y="447" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-31" target="giaX7tnbBmGHWZiOz6_T-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="giaX7tnbBmGHWZiOz6_T-31" value="idade&amp;nbsp;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;hachureGap=4;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-117" y="708" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-36" value="nao" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;verticalAlign=bottom;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-33" target="giaX7tnbBmGHWZiOz6_T-35">
+          <mxGeometry x="-0.0744" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-38" value="sim" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-33" target="giaX7tnbBmGHWZiOz6_T-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-33" value="o participante é maior que 18 anos?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="831" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-35" value="cadastro nao permitido pela idade&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="45" y="846" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-40" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-37" target="giaX7tnbBmGHWZiOz6_T-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-37" value="digite seu nome&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="990" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-42" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-39" target="giaX7tnbBmGHWZiOz6_T-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-39" value="nome do participante&amp;nbsp;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="1121" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-46" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-41" target="giaX7tnbBmGHWZiOz6_T-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-41" value="criar lista e adicionar o nome do participante.&lt;br&gt;contar quantidade de participante." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="1252" width="201" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-51" value="nao" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;verticalAlign=bottom;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-45" target="giaX7tnbBmGHWZiOz6_T-49">
+          <mxGeometry x="-0.0244" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-52" value="sim" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-45" target="giaX7tnbBmGHWZiOz6_T-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-45" value="a quantidade de participante é menor&amp;nbsp; que 100?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-111.5" y="1371" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-55" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-49" target="giaX7tnbBmGHWZiOz6_T-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-49" value="limite de excedido&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1387" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="giaX7tnbBmGHWZiOz6_T-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-128" y="229" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-271" y="1572" />
+              <mxPoint x="-308" y="1554" />
+              <mxPoint x="-319" y="1414" />
+              <mxPoint x="-331" y="258" />
+              <mxPoint x="-319" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-50" value="cadastro finalizado&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="1536" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="giaX7tnbBmGHWZiOz6_T-54" value="fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;hachureGap=4;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1387" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
